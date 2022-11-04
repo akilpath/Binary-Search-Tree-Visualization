@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox id="screen" fx:id="screen" alignment="CENTER" spacing="20.0" style="-fx-background-color: #04cccc;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PrimaryController">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <children>
+      <Label fx:id="visualizationBox" text="Tree Sort Visualization" textFill="WHITE" VBox.vgrow="ALWAYS">
+         <font>
+            <Font name="Microsoft YaHei Light" size="35.0" />
+         </font>
+      </Label>
+   </children>
+</VBox>
